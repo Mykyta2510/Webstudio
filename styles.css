@@ -1,3 +1,4 @@
+/* Стилі
 a[href^="tel:+380961111111"] {color: gray;}
 a[href^="mailto:info@devstudio.com"] {color: grey;}
 button{background-color: lightgrey;}
@@ -9,4 +10,29 @@ span{color: blue;}
 #Студіоо{color: black;}
 #Веб{color: blue;}
 #Студіо{color: white;}
-/*Завдання 2!*/
+*/
+:root{
+    --primaryFooterBackgroundColor: Black;
+    --primaryAdressColor: White;
+    --primaryTelMailColor: Grey;
+    --primaryLogoWebColor: blue; 
+    --primaryLogoStudioColor: black;
+    --primaryStudioLogoColor: white;
+    --primarySectionPortfolioColor: blue;
+    --primaryTextColor: Black;
+    --primaryLinkColor: Darkblue;
+    --primarySectionPortfolioColor: blue;
+    --primaryButtonBackgroundColor: blue;
+}
+}
+p{color: var(--primaryTextColor);}
+footer{background-color: var(--primaryFooterBackgroundColor);}
+#Адресса{color: var(--primaryAdressColor);}
+a[href^="tel:+380961111111"] {color: var(--primaryTelMailColor);}
+a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
+#Web{color: var(--primaryLogoWebColor);}
+#Studio{color: var(--primaryLogoStudioColor);}
+#Веб{color: var(--primaryLogoWebColor);}
+#Студіо{color: var(--primaryStudioLogoColor);}
+#Портфоліо{color: var(--primarySectionPortfolioColor);}
+.General-Button{background-color: var(--primaryButtonBackgroundColor);}
