@@ -1,4 +1,4 @@
-a[href^="/"] {color:blue;}
+a[href^="/"] {color:black;}
 h1 {color: white;}
 button{background-color: blue;}
 button{color: white;}
@@ -8,3 +8,6 @@ a[href^="tel:+380961111111"] {color: gray;}
 a[href^="mailto:info@devstudio.com"] {color: grey;}
 #Секція{background-color: black;}
 #Студія{color: blue;}
+span{color: blue;}
+#Веб{color: blue;}
+#Студіо{color: white;}
