@@ -1,0 +1,7 @@
+a[href^="tel:+380961111111"] {color: gray;}
+a[href^="mailto:info@devstudio.com"] {color: grey;}
+button{background-color: lightgrey;}
+#Кнопка{background-color: blue;}
+#Портфоліо{color: blue;}
+footer{background-color: black}
+address{color: white;}
