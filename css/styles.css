@@ -1,0 +1,6 @@
+a[href^="/"] {color:blue;}
+h1 {color: white;}
+button{background-color: blue;}
+button{color: white;}
+footer{background-color: black;}
+address{color: white;}
