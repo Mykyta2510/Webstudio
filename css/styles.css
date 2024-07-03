@@ -4,3 +4,6 @@ button{background-color: blue;}
 button{color: white;}
 footer{background-color: black;}
 address{color: white;}
+a[href^="tel:+380961111111"] {color: gray;}
+a[href^="mailto:info@devstudio.com"] {color: grey;}
+#Секція{background-color: black;}
