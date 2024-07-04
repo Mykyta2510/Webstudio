@@ -24,7 +24,7 @@ span{color: blue;}
     --primarySectionPortfolioColor: blue;
     --primaryButtonBackgroundColor: blue;
 }
-}
+
 p{color: var(--primaryTextColor);}
 footer{background-color: var(--primaryFooterBackgroundColor);}
 #Адресса{color: var(--primaryAdressColor);}
@@ -36,3 +36,34 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
 #Студіо{color: var(--primaryStudioLogoColor);}
 #Портфоліо{color: var(--primarySectionPortfolioColor);}
 .General-Button{background-color: var(--primaryButtonBackgroundColor);}
+
+.Def{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+.Medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  #Medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.Bold  {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+.pold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
