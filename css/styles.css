@@ -14,19 +14,19 @@ span{color: blue;}
 #Студіо{color: white;}
 */
 :root{
-    --primaryTitleColor: White;
-    --primaryTextColor: Black;
-    --primaryLinkColor: Darkblue;
-    --primaryButtonColor: White;
-    --primaryButtonBackgroundColor: Blue;
-    --primaryFooterBackgroundColor: Black;
-    --primaryAdressColor: White;
-    --primaryTelMailColor: Grey;
-    --primarySectionBackgroundColor: Black;
-    --primaryLogoWebColor: blue;  
-    --primaryLogoStudioColor: black;
-    --primaryStudioLogoColor: white;
-    --primarySectionStudioColor: blue;
+    --primaryTitleColor: #FFFFFF;
+    --primaryTextColor: #212121;
+    --primaryLinkColor: #2196F3;
+    --primaryButtonColor: #FFFFFF;
+    --primaryButtonBackgroundColor: #2196F3;
+    --primaryFooterBackgroundColor: #2F303A;
+    --primaryAdressColor: #FFFFFF;
+    --primaryTelMailColor: #757575;
+    --primarySectionBackgroundColor: #2F303A;
+    --primaryLogoWebColor: #2196F3;  
+    --primaryLogoStudioColor: #000000;
+    --primaryStudioLogoColor: #FFFFFF;
+    --primarySectionStudioColor: #FFFFFF;
 }
 #Title{color: var(--primaryTitleColor);}
 p{color: var(--primaryTextColor);}
