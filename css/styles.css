@@ -27,6 +27,7 @@ span{color: blue;}
     --primaryLogoStudioColor: #000000;
     --primaryStudioLogoColor: #FFFFFF;
     --primarySectionStudioColor: #FFFFFF;
+    --primarySectionStudioMainColor: #2196F3;
 }
 #Title{color: var(--primaryTitleColor);}
 p{color: var(--primaryTextColor);}
@@ -43,6 +44,7 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
 #Studio{color: var(--primaryLogoStudioColor);}
 #Студіо{color: var(--primaryStudioLogoColor);}
 #Студія{color: var(--primarySectionStudioColor);}
+.Medium{color: var(--primarySectionStudioMainColor);}
 #Web {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
