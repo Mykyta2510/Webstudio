@@ -37,7 +37,7 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
 #Портфоліо{color: var(--primarySectionPortfolioColor);}
 .General-Button{background-color: var(--primaryButtonBackgroundColor);}
 
-.Def{
+.Size-Normal{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
