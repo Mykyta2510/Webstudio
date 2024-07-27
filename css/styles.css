@@ -1,18 +1,3 @@
-/*  Стилі
-a[href^="/"] {color:black;}
-h1 {color: white;}
-button{background-color: blue;}
-button{color: white;}
-footer{background-color: black;}
-address{color: white;}
-a[href^="tel:+380961111111"] {color: gray;}
-a[href^="mailto:info@devstudio.com"] {color: grey;}
-#Секція{background-color: black;}
-#Студія{color: blue;}
-span{color: blue;}
-#Веб{color: blue;}
-#Студіо{color: white;}
-*/
 :root{
     --primaryTitleColor: #FFFFFF;
     --primaryTextColor: #212121;
@@ -26,15 +11,15 @@ span{color: blue;}
     --primaryLogoWebColor: #2196F3;  
     --primaryLogoStudioColor: #000000;
     --primaryStudioLogoColor: #FFFFFF;
-    --primarySectionStudioColor: #FFFFFF;
+    --primarySectionStudioColor: #2196F3;
     --primarySectionStudioMainColor: #2196F3;
 }
-#Title{color: var(--primaryTitleColor);}
+.main_title{color: var(--primaryTitleColor);}
 p{color: var(--primaryTextColor);}
 a{color: var(--primaryLinkColor);}
 button{color:var(--primaryButtonColor)}
 h1{color: var(--primaryTextColor);}
-button{background-color: var(--primaryButtonBackgroundColor);}
+.main_button{background-color: var(--primaryButtonBackgroundColor);}
 footer{background-color: var(--primaryFooterBackgroundColor);}
 a[href^="tel:+380961111111"] {color: var(--primaryTelMailColor);}
 a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
@@ -43,14 +28,16 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
 #Web{color: var(--primaryLogoWebColor);}
 #Studio{color: var(--primaryLogoStudioColor);}
 #Студіо{color: var(--primaryStudioLogoColor);}
-#Студія{color: var(--primarySectionStudioColor);}
+.navigation-link{color: var(--primaryTextColor);}
+#navigation_studio{color: var(--primaryLinkColor);}
 .Medium{color: var(--primarySectionStudioMainColor);}
-#Web {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
+
+#Web{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
 #Studio{
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -70,11 +57,11 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
     font-style: normal;
   }
   
-.Medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+.Medium{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 #Title {
     font-family: "Roboto", sans-serif;
@@ -82,13 +69,7 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
     font-style: normal;
   }
   
-.Bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-.Size-Normal {
+.gallery_description{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -98,3 +79,28 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
   font-weight: 500;
   font-style: normal;
   }
+.navigation-link{
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.address_email{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.main_title{
+  font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.worker-description{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.address_street{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -8,93 +8,94 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
-    <a href="/"><span id="Web">Web</span><span id="Studio">Studio</span></a>
-    <nav>
+    <a class="logo" href="/"><span id="Web">Web</span><span id="Studio">Studio</span></a>
+    <nav class="navigation">
         <ul>
             <li>
-                <a class="Medium" id="Студія" href="#">Студія</a>
+                <a class="navigation-link" id="navigation_studio" href="#">Студія</a>
             </li>
             <li>
-                <a class="Medium" href="./portfolio.html">Потрфоліо</a>
+                <a class="navigation-link" href="./portfolio.html">Потрфоліо</a>
             </li>
             <li>
-                <a class="Medium" href="#">Контакти</a>
+                <a class="navigation-link" href="#">Контакти</a>
             </li>
         </ul>
     </nav>
-    <ul>
+    <ul class="address">
         <li>
-            <a class="Medium" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="address_email" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-            <a class="Medium" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="address_tel" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
     </ul>
     </header>
-    <main>
-        <section id="Секція">
-            <h1 class="Bold" id="Title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button">Замовити послугу</button>  
+    <main class="main">
+        <section class="main_first-section" id="Секція">
+            <h1 class="main_title" id="Title">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="main_button">Замовити послугу</button>  
         </section>
-        <section>
-            <ul>
-                <li>
-                    <h3 class="Bold">Увага до деталей</h3>
-                    <p class="Size-Normal">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+        <section class="main_second-section">
+            <ul class="gallery">
+                <li class="gallery_first">
+                    <h3 class="gallery_title">Увага до деталей</h3>
+                    <p class="gallery_description">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li>
-                    <h3 class="Bold">Пунктуальність</h3>
-                    <p class="Size-Normal">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-                <li> 
-                    <h3 class="Bold">Планування</h3>
-                    <p class="Size-Normal">Так само консультація з широким активом значною мірою зумовлює.</p>
+                <li class="gallery_first">
+                    <h3 class="gallery_title">Пунктуальність</h3>
+                    <p class="gallery_description">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                <li class="gallery_first"> 
+                    <h3 class="gallery_title">Планування</h3>
+                    <p class="gallery_description">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
-                    <h3 class="Bold">Сучасні технології</h3>
-                    <p class="Size-Normal">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                <li class="gallery_first">
+                    <h3 class="gallery_title">Сучасні технології</h3>
+                    <p class="gallery_description">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>  
         </section>
-        <section>
-            <h2 class="Bold">Чим ми займаємося?</h2>
-            <ul>
-                <li>
-                    <img class="img" src="./images/box1.jpg" alt="Людина за планшетом">
+        <section class="main_third-section">
+            <h2 class="third_section-title">Чим ми займаємося?</h2>
+            <ul class="third_section-images">
+                <li class="first">
+                    <img class="first_image" src="./images/box1.jpg" alt="Людина за планшетом">
                 </li>
-                <li>
-                    <img class="img" src="./images/img.png" alt="Людина з телефоном у руках">
+                <li class="second">
+                    <img class="second-image" src="./images/img.png" alt="Людина з телефоном у руках">
                 </li>
-                <li>
-                    <img class="img" src="./images/img(1).png" alt="Людина яка працює на планшеті">
+                <li class="third">
+                    <img class="third_image" src="./images/img(1).png" alt="Людина яка працює на планшеті">
                 </li>
             </ul>
         </section>
-        <section>
-            <h2 class="Bold">Наша команда</h2>
-            <ul>
-                <li><img class="img" src="./images/img.jpg" alt="Фото Ігора Дем'яненко">
-                    <h3 class="People-Name">Ігор Дем'яненко</h3>
-                    <p class="Size-Normal">Product Designer</p>
+        <section class="main_forth-section">
+            <h2 class="forth_section-title">Наша команда</h2>
+            <ul class="workers">
+                <li class="worker">
+                    <img class="worker-image" src="./images/img.jpg" alt="Фото Ігора Дем'яненко">
+                    <h3 class="worker-name">Ігор Дем'яненко</h3>
+                    <p class="worker-description">Product Designer</p>
                 </li>
-                <li>
-                    <img class="img" src="./images/img(1).jpg" alt="Фото Ольги Рєпіної">
-                    <h3 class="People-Name">Ольга Рєпіна</h3>
-                    <p class="Size-Normal">Frontend Developer</p>
+                <li class="worker">
+                    <img class="worker-image" src="./images/img(1).jpg" alt="Фото Ольги Рєпіної">
+                    <h3 class="worker-name">Ольга Рєпіна</h3>
+                    <p class="worker-description">Frontend Developer</p>
                 </li>
-                <li>
-                    <img class="img" src="./images/img(2).jpg" alt="Фото Миколи Тарасова">
-                    <h3 class="People-Name">Микола Тарасов</h3>
-                    <p class="Size-Normal">Marketing</p>
+                <li class="worker">
+                    <img class="worker-image" src="./images/img(2).jpg" alt="Фото Миколи Тарасова">
+                    <h3 class="worker-name">Микола Тарасов</h3>
+                    <p class="worker-description">Marketing</p>
                 </li>
-                <li>
-                    <img class="img" src="./images/img(3).jpg" alt="Фото Михайла Єрмакова">
-                    <h3 class="People-Name">Михайло Єрмаков</h3>
-                    <p class="Size-Normal">UI Designer</p>
+                <li class="worker">
+                    <img class="worker-image" src="./images/img(3).jpg" alt="Фото Михайла Єрмакова">
+                    <h3 class="worker-name">Михайло Єрмаков</h3>
+                    <p class="worker-description">UI Designer</p>
                 </li>
         </ul>
         </section>
@@ -102,13 +103,13 @@
     <footer>
         <a href="/"><span id="Веб">Web</span><span id="Студіо">Studio</span></a>
         <address>
-            <p class="Size-Normal" id="Адресса">м. Київ, пр-т Лесі Українки, 26</p>
-            <ul>
+            <p class="address_street" id="Адресса">м. Київ, пр-т Лесі Українки, 26</p>
+            <ul class="address">
                 <li>
-                    <a class="Medium" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="address_email" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="Medium" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="address_tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
         </address>

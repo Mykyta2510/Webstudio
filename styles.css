@@ -1,41 +1,32 @@
-/* Стилі
-a[href^="tel:+380961111111"] {color: gray;}
-a[href^="mailto:info@devstudio.com"] {color: grey;}
-button{background-color: lightgrey;}
-#Кнопка{background-color: blue;}
-#Портфоліо{color: blue;}
-footer{background-color: black}
-address{color: white;}
-span{color: blue;}
-#Студіоо{color: black;}
-#Веб{color: blue;}
-#Студіо{color: white;}
-*/
 :root{
-    --primaryFooterBackgroundColor: Black;
-    --primaryAdressColor: White;
-    --primaryTelMailColor: Grey;
-    --primaryLogoWebColor: blue; 
-    --primaryLogoStudioColor: black;
-    --primaryStudioLogoColor: white;
-    --primarySectionPortfolioColor: blue;
-    --primaryTextColor: Black;
-    --primaryLinkColor: Darkblue;
-    --primarySectionPortfolioColor: blue;
-    --primaryButtonBackgroundColor: blue;
+    --primaryFooterBackgroundColor: #2F303A;
+    --primaryAdressColor: #FFFFFF;
+    --primaryTelColor: #757575;
+    --primaryLogoWebColor: #2196F3; 
+    --primaryLogoStudioColor: #000000;
+    --primaryStudioLogoColor: #FFFFFF;
+    --primarySectionPortfolioColor: #2196F3;
+    --primaryTextColor: #212121;
+    --primaryLinkColor: #212121;
+    --primarySectionPortfolioColor: #2196F3;
+    --primaryButtonBackgroundColor: #2196F3;
+    --primaryMailColor: #2196F3;
+    --primaryFooterMailColor: #757575
 }
 
 p{color: var(--primaryTextColor);}
 footer{background-color: var(--primaryFooterBackgroundColor);}
 #Адресса{color: var(--primaryAdressColor);}
-a[href^="tel:+380961111111"] {color: var(--primaryTelMailColor);}
-a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
+a[href^="tel:+380961111111"] {color: var(--primaryTelColor);}
+a[href^="mailto:info@devstudio.com"] {color: var(--primaryMailColor);}
 #Web{color: var(--primaryLogoWebColor);}
 #Studio{color: var(--primaryLogoStudioColor);}
 #Веб{color: var(--primaryLogoWebColor);}
 #Студіо{color: var(--primaryStudioLogoColor);}
 #Портфоліо{color: var(--primarySectionPortfolioColor);}
 .General-Button{background-color: var(--primaryButtonBackgroundColor);}
+.Medium{color: var(--primaryLinkColor);}
+#color-grey{color: var(--primaryFooterMailColor);}
 
 .Size-Normal{
     font-family: "Roboto", sans-serif;
