@@ -14,61 +14,21 @@
     --primarySectionStudioColor: #2196F3;
     --primarySectionStudioMainColor: #2196F3;
 }
-.main_title{color: var(--primaryTitleColor);}
-p{color: var(--primaryTextColor);}
-a{color: var(--primaryLinkColor);}
-button{color:var(--primaryButtonColor)}
-h1{color: var(--primaryTextColor);}
-.main_button{background-color: var(--primaryButtonBackgroundColor);}
-footer{background-color: var(--primaryFooterBackgroundColor);}
-a[href^="tel:+380961111111"] {color: var(--primaryTelMailColor);}
-a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
-#Секція{background-color: var(--primarySectionBackgroundColor);}
-#Адресса{color: var(--primaryAdressColor);}
-#Web{color: var(--primaryLogoWebColor);}
-#Studio{color: var(--primaryLogoStudioColor);}
-#Студіо{color: var(--primaryStudioLogoColor);}
-.navigation-link{color: var(--primaryTextColor);}
-#navigation_studio{color: var(--primaryLinkColor);}
-.Medium{color: var(--primarySectionStudioMainColor);}
 
-#Web{
+
+.logo{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
-#Studio{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-#Веб{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-#Студіо{
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
+
 .Medium{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
-#Title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
 .gallery_description{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -79,12 +39,12 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
   font-weight: 500;
   font-style: normal;
   }
-.navigation-link{
+.menu-link{
   font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
 }
-.address_email{
+.contact-link{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -103,4 +63,7 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryTelMailColor);}
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.hero-section{
+  background-color: #212121;
 }
