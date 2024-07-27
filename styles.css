@@ -27,14 +27,15 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryMailColor);}
 .General-Button{background-color: var(--primaryButtonBackgroundColor);}
 .Medium{color: var(--primaryLinkColor);}
 #color-grey{color: var(--primaryFooterMailColor);}
+.navigation_links{color: var(--primaryLinkColor);}
 
-.Size-Normal{
+.product_description{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
  
-.Medium {
+.navigation_links {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -45,7 +46,7 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryMailColor);}
     font-style: normal;
   }
 
-.Bold  {
+.product_name  {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -57,4 +58,24 @@ a[href^="mailto:info@devstudio.com"] {color: var(--primaryMailColor);}
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+}
+.address_email{
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.address_tel{
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.buttons{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.address{
+  font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
