@@ -1,26 +1,32 @@
 :root{
     --primaryTitleColor: #FFFFFF;
-    --primaryTextColor: #212121;
-    --primaryLinkColor: #2196F3;
+    --primaryTitleTextColor: #212121;
+    --primaryHeroLinkColor: #2196F3;
     --primaryButtonColor: #FFFFFF;
     --primaryButtonBackgroundColor: #2196F3;
-    --primaryFooterBackgroundColor: #2F303A;
     --primaryAdressColor: #FFFFFF;
-    --primaryTelMailColor: #757575;
-    --primarySectionBackgroundColor: #2F303A;
-    --primaryLogoWebColor: #2196F3;  
-    --primaryLogoStudioColor: #000000;
-    --primaryStudioLogoColor: #FFFFFF;
+    --primaryContactsColor: #757575;
+    --primaryBackgroundColor: #2F303A;
+    --primaryWebColor: #2196F3;  
+    --primaryStudioColor: #000000;
+    --primaryLogoColor: #FFFFFF;
     --primarySectionStudioColor: #2196F3;
     --primarySectionStudioMainColor: #2196F3;
+    --primaryLinkColor: #212121;    
+    --primaryHeroConactColor: #2196F3;
+    --primaryTextColor: #757575;
 }
-
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .logo{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: var(--primaryWebColor);
 }
 
 .Medium{
@@ -43,11 +49,13 @@
   font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    color: var(--primaryLinkColor);
 }
 .contact-link{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+  color: var(--primaryContactsColor);
 }
 .main_title{
   font-family: "Roboto", sans-serif;
@@ -59,11 +67,149 @@
   font-weight: 400;
   font-style: normal;
 }
-.address_street{
+.address-street{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primaryAdressColor);
+}
+.hero-section{
+  background-color: var(--primaryBackgroundColor);
+}
+.studio{
+  color: var(--primaryStudioColor);
+}
+.Studio{
+  color: var(--primaryLogoColor);
+}
+.hero-title{
+  padding: 200px 0;
+  color: var(--primaryTitleColor);
+  text-align: center;
+}
+.hero-button{
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  
+}
+.hero-link{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryHeroLinkColor);
+}
+.hero-contact{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryHeroConactColor);
+}
+.item-text{
+  color: var(--primaryTextColor);
+}
+.worker-description{
+  color: var(--primaryTextColor);
+}
+.title{
+  text-align: center;
+}
+.footer{
+  background-color: var(--primaryBackgroundColor);
+}
+
+
+
+
+/*портфоліо*/
+
+
+
+
+
+
+:root{
+  --primaryTitleTextColor: #212121;
+  --primaryHeroLinkColor: #2196F3;
+  --primaryButtonColor: #212121;
+  --primaryHeroButtonBackgroundColor: #2196F3;
+  --primaryButtonBackgroundColor: #FFFFFF;
+  --primaryAdressColor: #FFFFFF;
+  --primaryContactsColor: #757575;
+  --primaryBackgroundColor: #2F303A;
+  --primaryWebColor: #2196F3;  
+  --primaryStudioColor: #000000;
+  --primaryLogoColor: #FFFFFF;
+  --primarySectionStudioColor: #2196F3;
+  --primaryLinkColor: #212121;    
+  --primaryHeroConactColor: #2196F3;
+  --primaryTextColor: #757575;
+  --primaryHeroButtonColor: #FFFFFF;
+}
+
+.product_description{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.hero-section{
-  background-color: #212121;
+
+.navigation_links {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.product_name  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.pold {
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+}
+.address-email{
+font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.address-tel{
+font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.filter-button{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+.first-button{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: var(--primaryHeroButtonBackgroundColor);
+  color: var(--primaryHeroButtonColor);
+}
+.address{
+font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.logo{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--primaryWebColor);
+}
+.hero-link{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryHeroLinkColor);
 }
