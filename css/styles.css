@@ -28,13 +28,6 @@
   font-style: normal;
   color: var(--primaryWebColor);
 }
-
-.Medium{
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
 .gallery_description{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -57,11 +50,6 @@
   font-style: normal;
   color: var(--primaryContactsColor);
 }
-.main_title{
-  font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
 .worker-description{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -75,6 +63,8 @@
 }
 .hero-section{
   background-color: var(--primaryBackgroundColor);
+  width: 1600px;
+  height: 600px;
 }
 .studio{
   color: var(--primaryStudioColor);
@@ -86,6 +76,7 @@
   padding: 200px 0;
   color: var(--primaryTitleColor);
   text-align: center;
+  padding-bottom: 30px;
 }
 .hero-button{
   display: block;
@@ -160,13 +151,6 @@
   font-style: normal;
 }
 
-.pold {
-font-family: "Raleway", sans-serif;
-font-optical-sizing: auto;
-font-weight: 700;
-font-style: normal;
-}
-
 .filter-button{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -202,4 +186,10 @@ font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: var(--primaryAdressColor);
+}
+.hero-contact{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryHeroConactColor);
 }
