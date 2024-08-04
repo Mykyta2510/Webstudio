@@ -91,7 +91,8 @@
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
-  
+  color: var(--primaryHeroButtonColor);
+  background-color: var(--primaryHeroButtonBackgroundColor);
 }
 .hero-link{
   font-family: "Roboto", sans-serif;
@@ -147,25 +148,17 @@
   --primaryHeroButtonColor: #FFFFFF;
 }
 
-.product_description{
+.product-description{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--primaryTextColor);
 }
-
-.navigation_links {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-
-.product_name  {
+.product-name  {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
 
 .pold {
 font-family: "Raleway", sans-serif;
@@ -173,16 +166,7 @@ font-optical-sizing: auto;
 font-weight: 700;
 font-style: normal;
 }
-.address-email{
-font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-.address-tel{
-font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
+
 .filter-button{
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -212,4 +196,10 @@ font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroLinkColor);
+}
+.street-address{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primaryAdressColor);
 }
