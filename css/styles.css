@@ -36,6 +36,7 @@
   font-style: normal;
   color: var(--primaryWebColor);
   letter-spacing: 0.03em;
+  font-size: 26px;
 }
 .gallery_description{
     font-family: var(--font-family);
@@ -63,6 +64,8 @@
   font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
+  font-size: 16px;
+  color: var(--primaryTextColor);
 }
 .address-street{
   font-family: var(--font-family);
@@ -78,10 +81,12 @@
 .studio{
   color: var(--primaryStudioColor);
   letter-spacing: 0.03em;
+  font-size: 26px;
 }
 .Studio{
   color: var(--primaryLogoColor);
   letter-spacing: 0.03em;
+  font-size: 26px;
 }
 .hero-title{
   padding: 200px 0;
@@ -90,6 +95,7 @@
   padding-bottom: 30px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  font-size: 44px;
 }
 .hero-button{
   display: block;
@@ -99,6 +105,7 @@
   background-color: var(--primaryHeroButtonBackgroundColor);
   line-height: 1.87;
   letter-spacing: 0.06em;
+  font-size: 16px;
 }
 .hero-link{
   font-family: var(--font-family);
@@ -106,6 +113,7 @@
   font-style: normal;
   color: var(--primaryHeroLinkColor);
   letter-spacing: 0.02em;
+  font-size: 14px;
 }
 .hero-contact{
   font-family: var(--font-family);
@@ -116,25 +124,27 @@
 .item-text{
   color: var(--primaryTextColor);
   line-height: 1.71;
-}
-.worker-description{
-  color: var(--primaryTextColor);
+  font-size: 14px;
 }
 .title{
   text-align: center;
   letter-spacing: 0.03em;
+  font-size: 36px;
 }
 .footer{
   background-color: var(--primaryBackgroundColor);
 }
 .contact-item{
   letter-spacing: 0.02em;
+  font-size: 14px;
 }
 .item-title{
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 .worker-name{
   letter-spacing: 0.03em;
+  font-size: 16px;
 }
 
 
@@ -172,12 +182,14 @@
   font-style: normal;
   color: var(--primaryTextColor);
   line-height: 1.87;
+  font-size: 16px;
 }
 .product-name  {
   font-family: var(--font-family);
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.06em;
+  font-size: 18px;
 }
 
 .filter-button{
@@ -218,6 +230,7 @@ line-height: 1.62;
   font-style: normal;
   color: var(--primaryAdressColor);
   line-height: 1.71;
+  font-size: 14px;
 }
 .hero-contact{
   font-family: var(--font-family);
@@ -227,4 +240,8 @@ line-height: 1.62;
 }
 .contact-link{
   line-height: 1.71;
+  font-size: 14px;
+}
+.filter-item{
+  font-size: 16px;
 }
