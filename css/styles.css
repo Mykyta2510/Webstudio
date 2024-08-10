@@ -15,6 +15,12 @@
     --primaryLinkColor: #212121;    
     --primaryHeroConactColor: #2196F3;
     --primaryTextColor: #757575;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+.body{
+  font-family: var(--font-family);
+  font-weight: 400;
 }
 .container{
   width: 1200px;
@@ -22,41 +28,42 @@
 }
 
 .logo{
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-family);
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   color: var(--primaryWebColor);
+  letter-spacing: 0.03em;
 }
 .gallery_description{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family);
     font-weight: 400;
     font-style: normal;
   }
   .People-Name{
-    font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   }
 .menu-link{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
     font-weight: 500;
     font-style: normal;
     color: var(--primaryLinkColor);
 }
 .contact-link{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryContactsColor);
 }
 .worker-description{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
 }
 .address-street{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryAdressColor);
@@ -68,15 +75,19 @@
 }
 .studio{
   color: var(--primaryStudioColor);
+  letter-spacing: 0.03em;
 }
 .Studio{
   color: var(--primaryLogoColor);
+  letter-spacing: 0.03em;
 }
 .hero-title{
   padding: 200px 0;
   color: var(--primaryTitleColor);
   text-align: center;
   padding-bottom: 30px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 .hero-button{
   display: block;
@@ -84,31 +95,46 @@
   padding: 10px 32px;
   color: var(--primaryHeroButtonColor);
   background-color: var(--primaryHeroButtonBackgroundColor);
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 .hero-link{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroLinkColor);
+  letter-spacing: 0.02em;
 }
 .hero-contact{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroConactColor);
 }
 .item-text{
   color: var(--primaryTextColor);
+  line-height: 1.71;
 }
 .worker-description{
   color: var(--primaryTextColor);
 }
 .title{
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .footer{
   background-color: var(--primaryBackgroundColor);
 }
+.contact-item{
+  letter-spacing: 0.02em;
+}
+.item-title{
+  letter-spacing: 0.03em;
+}
+.worker-name{
+  letter-spacing: 0.03em;
+}
+
 
 
 
@@ -138,58 +164,65 @@
   --primaryTextColor: #757575;
   --primaryHeroButtonColor: #FFFFFF;
 }
-
 .product-description{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryTextColor);
+  line-height: 1.87;
 }
 .product-name  {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 0.06em;
 }
 
 .filter-button{
-font-family: "Roboto", sans-serif;
+font-family: var(--font-family);
 font-weight: 500;
 font-style: normal;
+letter-spacing: 0.03em;
+line-height: 1.62;
 }
 .first-button{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   background-color: var(--primaryHeroButtonBackgroundColor);
   color: var(--primaryHeroButtonColor);
 }
 .address{
-font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
 }
 .logo{
-  font-family: "Raleway", sans-serif;
+  font-family: var(--second-family);
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   color: var(--primaryWebColor);
 }
 .hero-link{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroLinkColor);
 }
 .street-address{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryAdressColor);
+  line-height: 1.71;
 }
 .hero-contact{
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroConactColor);
+}
+.contact-link{
+  line-height: 1.71;
 }
