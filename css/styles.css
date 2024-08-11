@@ -53,6 +53,7 @@
     font-weight: 500;
     font-style: normal;
     color: var(--primaryLinkColor);
+    padding-right: 114px;
 }
 .contact-link{
   font-family: var(--font-family);
@@ -66,6 +67,7 @@
   font-style: normal;
   font-size: 16px;
   color: var(--primaryTextColor);
+  text-align: center;
 }
 .address-street{
   font-family: var(--font-family);
@@ -114,12 +116,16 @@
   color: var(--primaryHeroLinkColor);
   letter-spacing: 0.02em;
   font-size: 14px;
+  padding-right: 122px;
 }
 .hero-contact{
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryHeroConactColor);
+  padding-right: 50px;
+  padding-left: 700px;
+  margin-top: 2298px;
 }
 .item-text{
   color: var(--primaryTextColor);
@@ -145,8 +151,35 @@
 .worker-name{
   letter-spacing: 0.03em;
   font-size: 16px;
+  text-align: center;
 }
-
+.menu{
+  display: flex;
+}
+.contacts{
+  display: flex;
+}
+.our-work-image{
+  height: 294px;
+  width: 370px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+.our-work-list{
+  display: flex;
+}
+.worker-image{
+  height: 260px;
+  width: 270px;
+ padding-right: 30px;
+}
+.workers{
+  display: flex;
+}
+.list{
+  display: flex;
+  padding-top: 56px;
+}
 
 
 
