@@ -124,8 +124,8 @@
   font-style: normal;
   color: var(--primaryHeroConactColor);
   padding-right: 50px;
-  padding-left: 700px;
-  margin-top: 2298px;
+  margin-left: 780px;
+  padding-bottom: 700px;
 }
 .item-text{
   color: var(--primaryTextColor);
@@ -152,6 +152,8 @@
   letter-spacing: 0.03em;
   font-size: 16px;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .menu{
   display: flex;
@@ -167,6 +169,7 @@
 }
 .our-work-list{
   display: flex;
+  padding-bottom: 188px;
 }
 .worker-image{
   height: 260px;
@@ -175,10 +178,12 @@
 }
 .workers{
   display: flex;
+  padding-top: 50px;
 }
 .list{
   display: flex;
   padding-top: 56px;
+  padding-bottom: 118px;
 }
 
 
@@ -231,6 +236,8 @@ font-weight: 500;
 font-style: normal;
 letter-spacing: 0.03em;
 line-height: 1.62;
+height: 38px;
+width: 125px;
 }
 .first-button{
   font-family: var(--font-family);
@@ -238,6 +245,10 @@ line-height: 1.62;
   font-style: normal;
   background-color: var(--primaryHeroButtonBackgroundColor);
   color: var(--primaryHeroButtonColor);
+  display: block;
+  height: 38px;
+  width: 73px;
+  margin-left: 280px;
 }
 .address{
   font-family: var(--font-family);
@@ -265,16 +276,31 @@ line-height: 1.62;
   line-height: 1.71;
   font-size: 14px;
 }
-.hero-contact{
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-style: normal;
-  color: var(--primaryHeroConactColor);
-}
 .contact-link{
   line-height: 1.71;
   font-size: 14px;
 }
 .filter-item{
   font-size: 16px;
+}
+.filter-list{
+  display: flex;
+  padding-bottom: 34px;
+  padding-top: 126px;
+}
+.product-image{
+  height: 294px;
+  width: 370px;
+}
+.first-line{
+  display: flex;
+  padding-bottom: 30px;
+}
+.second-line{
+  display: flex;
+  padding-bottom: 30px;
+}
+.third-line{
+  display: flex;
+  padding-bottom: 94px;
 }
