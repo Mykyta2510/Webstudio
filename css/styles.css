@@ -307,3 +307,6 @@ width: 125px;
   display: flex;
   padding-bottom: 94px;
 }
+.gallery-item{
+  padding-right: 30px;
+}
