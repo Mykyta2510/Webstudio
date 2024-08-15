@@ -127,7 +127,7 @@
   color: var(--primaryHeroConactColor);
   padding-right: 50px;
   margin-left: 780px;
-  padding-bottom: 700px;
+  padding-left: 50px;
 }
 .item-text{
   color: var(--primaryTextColor);
@@ -309,4 +309,7 @@ width: 125px;
 }
 .gallery-item{
   padding-right: 30px;
+}
+.header-position{
+  display: flex;
 }
