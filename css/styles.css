@@ -80,6 +80,8 @@
   background-color: var(--primaryBackgroundColor);
   width: 1800px;
   height: 600px;
+  width: 80%;
+  margin: 0 auto;
 }
 .studio{
   color: var(--primaryStudioColor);
