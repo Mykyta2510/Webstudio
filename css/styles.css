@@ -160,8 +160,7 @@
 }
 .menu{
   display: flex;
-  padding-left: 93px;
-  margin-top:  9px;
+  margin-left: 93px;
 }
 
 .our-work-image{
@@ -193,19 +192,23 @@
 }
 .header-position{
   display: flex;
+  align-items: center;
 }
 .contacts{
   display: flex;
+  margin-left: auto;
+  column-gap: 50px;
+  align-items: center;
 }
 .header{
-  padding-bottom: 88px;
+  padding-bottom: 81px;
+  padding-top: 24px;
 }
 .second-hero-link{
 font-family: var(--font-family);
 font-weight: 500;
 font-style: normal;
 color: var(--primaryContactsColor);
-margin-right: 1100px;
 }
 #contacts{
   padding-right: 0;
@@ -330,7 +333,4 @@ width: 125px;
 }
 .gallery-item{
   padding-right: 30px;
-}
-.contact-item{
-  padding-left: 344px;
 }
