@@ -205,7 +205,9 @@ font-style: normal;
 color: var(--primaryContactsColor);
 margin-right: 1100px;
 }
-
+#contacts{
+  padding-right: 0;
+}
 
 
 
