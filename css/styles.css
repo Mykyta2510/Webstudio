@@ -126,7 +126,6 @@
   line-height: 1.71;
   font-size: 14px;
   color: var(--primaryContactsColor);
-  margin-top: 9px;
 }
 .item-text{
   color: var(--primaryTextColor);
@@ -162,9 +161,7 @@
   padding-left: 93px;
   margin-top:  9px;
 }
-.contacts{
-  display: flex;
-}
+
 .our-work-image{
   height: 294px;
   width: 370px;
@@ -195,11 +192,18 @@
 .header-position{
   display: flex;
 }
-.contacts-section{
-  margin-right: 300px;
+.contacts{
+  display: flex;
 }
 .header{
   padding-bottom: 88px;
+}
+.second-hero-link{
+font-family: var(--font-family);
+font-weight: 500;
+font-style: normal;
+color: var(--primaryContactsColor);
+margin-right: 1100px;
 }
 
 
@@ -322,4 +326,7 @@ width: 125px;
 }
 .gallery-item{
   padding-right: 30px;
+}
+.contact-item{
+  padding-left: 344px;
 }
