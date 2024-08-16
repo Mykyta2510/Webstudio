@@ -115,7 +115,6 @@
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
-  color: var(--primaryHeroLinkColor);
   letter-spacing: 0.02em;
   font-size: 14px;
   padding-right: 122px;
@@ -124,10 +123,10 @@
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
-  color: var(--primaryHeroConactColor);
-  padding-right: 50px;
-  margin-left: 780px;
-  padding-left: 50px;
+  line-height: 1.71;
+  font-size: 14px;
+  color: var(--primaryContactsColor);
+  margin-top: 9px;
 }
 .item-text{
   color: var(--primaryTextColor);
@@ -160,6 +159,8 @@
 }
 .menu{
   display: flex;
+  padding-left: 93px;
+  margin-top:  9px;
 }
 .contacts{
   display: flex;
@@ -187,6 +188,18 @@
   display: flex;
   padding-top: 56px;
   padding-bottom: 118px;
+}
+.hero-contact:hover{
+  color: var(--primaryHeroConactColor);
+}
+.header-position{
+  display: flex;
+}
+.contacts-section{
+  margin-right: 300px;
+}
+.header{
+  padding-bottom: 88px;
 }
 
 
@@ -265,11 +278,11 @@ width: 125px;
   font-style: normal;
   color: var(--primaryWebColor);
 }
-.hero-link{
+.hero-link:hover{
+  color: var(--primaryHeroLinkColor);
   font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
-  color: var(--primaryHeroLinkColor);
 }
 .street-address{
   font-family: var(--font-family);
@@ -309,7 +322,4 @@ width: 125px;
 }
 .gallery-item{
   padding-right: 30px;
-}
-.header-position{
-  display: flex;
 }
