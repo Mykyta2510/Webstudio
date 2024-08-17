@@ -15,6 +15,7 @@
     --primaryLinkColor: #212121;    
     --primaryHeroConactColor: #2196F3;
     --primaryTextColor: #757575;
+    --primarySectionBackgroundColor: #F5F4FA;
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
@@ -42,10 +43,6 @@
   letter-spacing: 0.03em;
   font-size: 26px;
 }
-.gallery_description{
-    font-weight: 400;
-    font-style: normal;
-  }
   .People-Name{
   font-weight: 500;
   font-style: normal;
@@ -202,21 +199,24 @@
 .section{
   padding-bottom: 94px;
   padding-top: 94px;
+  background-color: var(--primarySectionBackgroundColor);
+
 }
 .second-hero-title{
   text-align: center;
   letter-spacing: 0.03em;
   font-size: 36px;
 }
-.main-forth-section{
-  
-}
+
 .footer-contact-link{
   display: block;
   font-weight: 500;
   font-style: normal;
   color: var(--primaryContactsColor);
   margin-top: 9px;
+}
+.main-forth-section{
+  background-color: var(--primarySectionBackgroundColor);
 }
 
 
