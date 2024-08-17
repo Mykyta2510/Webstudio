@@ -275,8 +275,6 @@ width: 125px;
 .first-button{
   font-weight: 500;
   font-style: normal;
-  background-color: var(--primaryHeroButtonBackgroundColor);
-  color: var(--primaryHeroButtonColor);
   display: block;
   height: 38px;
   width: 73px;
