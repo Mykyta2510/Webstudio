@@ -18,6 +18,10 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
+.header{
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
 .body{
   font-family: var(--font-family);
   font-weight: 400;
@@ -39,30 +43,25 @@
   font-size: 26px;
 }
 .gallery_description{
-    font-family: var(--font-family);
     font-weight: 400;
     font-style: normal;
   }
   .People-Name{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   }
 .menu-link{
-  font-family: var(--font-family);
     font-weight: 500;
     font-style: normal;
     color: var(--primaryLinkColor);
     padding-right: 114px;
 }
 .contact-link{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   color: var(--primaryContactsColor);
 }
 .worker-description{
-  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -71,17 +70,16 @@
   padding-bottom: 124px;
 }
 .address-street{
-  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryAdressColor);
+  margin-top: 20px;
 }
 .hero-section{
   background-color: var(--primaryBackgroundColor);
-  width: 1800px;
-  height: 600px;
-  width: 80%;
   margin: 0 auto;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .studio{
   color: var(--primaryStudioColor);
@@ -94,14 +92,16 @@
   font-size: 26px;
 }
 .hero-title{
-  padding: 200px 0;
   color: var(--primaryTitleColor);
   text-align: center;
-  padding-bottom: 30px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   font-size: 44px;
   text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 .hero-button{
   display: block;
@@ -114,7 +114,6 @@
   font-size: 16px;
 }
 .hero-link{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   letter-spacing: 0.02em;
@@ -122,7 +121,6 @@
   padding-right: 122px;
 }
 .hero-contact{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   line-height: 1.71;
@@ -141,6 +139,8 @@
 }
 .footer{
   background-color: var(--primaryBackgroundColor);
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .contact-item{
   letter-spacing: 0.02em;
@@ -150,6 +150,7 @@
   letter-spacing: 0.03em;
   font-size: 14px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .worker-name{
   letter-spacing: 0.03em;
@@ -184,8 +185,6 @@
 }
 .list{
   display: flex;
-  padding-top: 56px;
-  padding-bottom: 118px;
 }
 .hero-contact:hover{
   color: var(--primaryHeroConactColor);
@@ -200,10 +199,29 @@
   column-gap: 50px;
   align-items: center;
 }
-.header{
-  padding-bottom: 81px;
-  padding-top: 24px;
+.section{
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
+.second-hero-title{
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 36px;
+}
+.main-forth-section{
+  
+}
+.footer-contact-link{
+  display: block;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--primaryContactsColor);
+  margin-top: 9px;
+}
+
+
+
+
 
 
 
@@ -233,7 +251,6 @@
   --primaryHeroButtonColor: #FFFFFF;
 }
 .product-description{
-  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryTextColor);
@@ -241,7 +258,6 @@
   font-size: 16px;
 }
 .product-name  {
-  font-family: var(--font-family);
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.06em;
@@ -249,7 +265,6 @@
 }
 
 .filter-button{
-font-family: var(--font-family);
 font-weight: 500;
 font-style: normal;
 letter-spacing: 0.03em;
@@ -258,7 +273,6 @@ height: 38px;
 width: 125px;
 }
 .first-button{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
   background-color: var(--primaryHeroButtonBackgroundColor);
@@ -269,7 +283,6 @@ width: 125px;
   margin-left: 280px;
 }
 .address{
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
 }
@@ -282,12 +295,10 @@ width: 125px;
 }
 .hero-link:hover{
   color: var(--primaryHeroLinkColor);
-  font-family: var(--font-family);
   font-weight: 500;
   font-style: normal;
 }
 .street-address{
-  font-family: var(--font-family);
   font-weight: 400;
   font-style: normal;
   color: var(--primaryAdressColor);
