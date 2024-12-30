@@ -47,26 +47,23 @@
   letter-spacing: 0.03em;
   font-size: 26px;
 }
-.body{
+body{
   font-family: var(--font-family);
   font-weight: 400;
+  background-color: #FFFFFF;
 }
 .menu{
   display: flex;
   margin-left: 93px;
-}
-.hero-link{
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 0.02em;
-  font-size: 14px;
-  padding-right: 122px;
 }
 .menu-link{
   font-weight: 500;
   font-style: normal;
   color: var(--primaryLinkColor);
   padding-right: 114px;
+}
+.menu-link:hover{
+  color: #2196F3;
 }
 .contacts{
   display: flex;
@@ -131,6 +128,10 @@
 }
 .list{
   display: flex;
+  column-gap: 30px;
+}
+.list-item{
+  flex-basis: calc((100% - 90px) / 4);
 }
 .item-title{
   letter-spacing: 0.03em;
@@ -150,16 +151,17 @@
 }
 .our-work-list{
   display: flex;
-  padding-bottom: 188px;
+  justify-content: space-between;
 }
 .our-work-image{
   height: 294px;
   width: 370px;
-  padding-right: 30px;
   padding-top: 50px;
 }
 .main-forth-section{
-  background-color: var(--primarySectionBackgroundColor);
+  background-color:#F5F4FA;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .second-hero-title{
   text-align: center;
@@ -168,12 +170,12 @@
 }
 .workers{
   display: flex;
-  padding-top: 50px;
+  margin-top: 50px;
+  column-gap: 30px;
 }
-.worker-image{
-  height: 260px;
-  width: 270px;
- padding-right: 30px;
+.worker{
+  flex-basis: calc((100% - 90px) / 4);
+  background-color: #F5F4FA;
 }
 .worker-name{
   letter-spacing: 0.03em;
@@ -188,7 +190,7 @@
   font-size: 16px;
   color: var(--primaryTextColor);
   text-align: center;
-  padding-bottom: 124px;
+  padding-bottom: 30px;
 }
 .footer{
   background-color: var(--primaryBackgroundColor);
