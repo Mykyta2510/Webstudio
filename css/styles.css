@@ -74,6 +74,7 @@ body{
 .contact-item{
   letter-spacing: 0.02em;
   font-size: 14px;
+  flex-basis: calc((100% - 50px) / 2);
 }
 .hero-contact{
   font-weight: 500;
@@ -247,6 +248,9 @@ body{
   --primaryTextColor: #757575;
   --primaryHeroButtonColor: #FFFFFF;
 }
+.menu-item{
+  flex-basis: calc((100% - 100px) / 3);
+}
 .product-description{
   font-weight: 400;
   font-style: normal;
@@ -272,10 +276,8 @@ width: 125px;
 .first-button{
   font-weight: 500;
   font-style: normal;
-  display: block;
   height: 38px;
   width: 73px;
-  margin-left: 280px;
 }
 .address{
   font-weight: 500;
@@ -288,10 +290,8 @@ width: 125px;
   font-style: normal;
   color: var(--primaryWebColor);
 }
-.hero-link:hover{
+.menu-link:hover{
   color: var(--primaryHeroLinkColor);
-  font-weight: 500;
-  font-style: normal;
 }
 .street-address{
   font-weight: 400;
@@ -306,17 +306,19 @@ width: 125px;
 }
 .filter-item{
   font-size: 16px;
+  flex-basis: calc((100% - 120px) / 5);
 }
 .filter-list{
   display: flex;
   padding-bottom: 34px;
   padding-top: 126px;
+  justify-content: center;
 }
 .product-image{
   height: 294px;
   width: 370px;
 }
-.first-line{
+.first-line {
   display: flex;
   padding-bottom: 30px;
 }
@@ -329,5 +331,5 @@ width: 125px;
   padding-bottom: 94px;
 }
 .gallery-item{
-  padding-right: 30px;
+  flex-basis: calc((100% - 60px) / 3);
 }
