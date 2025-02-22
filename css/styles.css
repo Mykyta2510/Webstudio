@@ -152,10 +152,9 @@ body{
 .our-work-list{
   display: flex;
   justify-content: space-between;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .our-work-image{
-  height: 294px;
-  width: 370px;
   padding-top: 50px;
 }
 .main-forth-section{
