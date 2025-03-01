@@ -318,18 +318,6 @@ width: 125px;
   height: 294px;
   width: 370px;
 }
-.first-line {
-  display: flex;
-  padding-bottom: 30px;
-}
-.second-line{
-  display: flex;
-  padding-bottom: 30px;
-}
-.third-line{
-  display: flex;
-  padding-bottom: 94px;
-}
 .gallery-item{
   flex-basis: calc((100% - 60px) / 3);
 }
