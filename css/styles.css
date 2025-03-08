@@ -74,7 +74,13 @@ body{
 .contact-item{
   letter-spacing: 0.02em;
   font-size: 14px;
-  flex-basis: calc((100% - 50px) / 2);
+}
+.icon-contacts{
+  fill: #757575;
+  margin-right: 10px;
+}
+.icon-contacts:hover{
+  fill: #2196F3;
 }
 .hero-contact{
   font-weight: 500;
